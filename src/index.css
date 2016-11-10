@@ -1,0 +1,373 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: #fff;
+	height: 100%;
+}
+
+.zh_shopbox {
+	height: 2.125rem;
+	padding: 0 0.4rem 0 0.575rem;
+	border-bottom: 0.05rem solid #939291;
+	background: #f9f9f9;
+}
+
+.zh_back {
+	display: block;
+	float: left;
+	margin-top: 0.7rem;
+}
+
+.zh_back img {
+	display: block;
+	width: 0.425rem;
+	height: 0.725rem;
+}
+
+.zh_shopcar {
+	display: block;
+	color: #2b2b2b;
+	font-size: 0.775rem;
+	line-height: 2.125rem;
+	margin-left: 5.25rem;
+	float: left;
+}
+
+.zh_bianji {
+	display: block;
+	color: #2b2b2b;
+	font-size: 0.6rem;
+	line-height: 2.125rem;
+	margin-left: 2.25rem;
+	float: left;
+}
+
+
+.zh_news {
+	display: block;
+	width: 1.15rem;
+	height: 1.275rem;
+	float: right;
+	margin-top: 0.25rem;
+}
+
+.zh_name {
+	height: 1.9rem;
+	padding-left: 0.65rem;
+	background: #fff;
+}
+
+.zh_binggo {
+	display: block;
+	float: left;
+	margin-top: 0.475rem;
+}
+
+.zh_binggo img {
+	width: 0.875rem;
+	height: 0.875rem;
+}
+
+.zh_chao {
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+	float: left;
+	margin: 0.525rem 0 0 0.675rem;
+}
+
+.zh_ondhurd {
+	color: #2b2b2b;
+	font-size: 0.5rem;
+	line-height: 1.9rem;
+	margin-left: 0.525rem;
+	float: left;
+}
+
+.zh_bigone {
+	display: block;
+	width: 0.425rem;
+	height: 0.75rem;
+	float: left;
+	margin: 0.6rem 0 0 0.55rem;
+}
+
+.zh_bianjia {
+	display: block;
+	width: 2.4rem;
+	height: 0.675rem;
+	float: right;
+	margin-top: 0.7rem;
+	border-left: 0.05rem solid #e2e2e2;
+	color: #2b2b2b;
+	font-size: 0.5rem;
+	line-height: 0.675rem;
+	text-align: center;
+}
+.zh_wancheng {
+	display: none;
+	width: 2.4rem;
+	height: 0.675rem;
+	float: right;
+	margin-top: 0.7rem;
+	border-left: 0.05rem solid #e2e2e2;
+	color: #2b2b2b;
+	font-size: 0.5rem;
+	line-height: 0.675rem;
+	text-align: center;
+}
+.zh_boxone {
+	height: 4.45rem;
+	margin-bottom: 0.125rem;
+	background: #f8f8f8;
+	padding-left: 0.65rem;
+}
+
+.zh_binggo_A {
+	display: block;
+	float: left;
+	margin-top: 1.85rem;
+}
+
+.zh_binggo_A img {
+	width: 0.875rem;
+	height: 0.875rem;
+}
+
+.zh_binggo_B {
+	display: block;
+	float: left;
+	margin: 0.2rem 0.3rem 0 0.6rem;
+}
+
+.zh_binggo_B img {
+	width: 4.125rem;
+	height: 4.125rem;
+}
+
+.zh_detail_a {
+	display: block;
+	float: left;
+	padding-top: 0.3rem;
+	-padding-right: 0.525rem;
+	width: 9rem;
+}
+
+.zh_detail_a p {
+	color: #2b2b2b;
+	font-size: 0.5rem;
+	line-height: 0.68rem;
+}
+
+.zh_detail_a p a {
+	color: #f82e00;
+	margin-right: 0.3rem;
+}
+
+.zh_detail_a p b {
+	text-align: right;
+	float: right;
+	font-weight: none;
+	margin-top: 0.1rem;
+}
+
+.zh_boxtwo {
+	height: 4.45rem;
+	margin-bottom: 0.125rem;
+	border-top: 0.025rem solid #fbfbfb;
+	border-bottom: 0.025rem solid #fbfbfb;
+	background: #f8f8f8;
+}
+
+.zh_price_box {
+	width: 100%;
+	height: 4.2rem;
+	position: absolute;
+	bottom: 0;
+	border-top: 0.05rem solid #d6d6d6;
+}
+
+.zh_price-one {
+	height: 2.15rem;
+	border-bottom: 0.025rem solid #dbdcdf;
+	padding-left: 0.65rem;
+}
+
+.zh_binggoa {
+	display: block;
+	float: left;
+	margin-top: 0.6rem;
+}
+
+.zh_binggoa img {
+	width: 0.875rem;
+	height: 0.875rem;
+}
+
+.zh_select {
+	color: #2b2b2b;
+	font-size: 0.5rem;
+	line-height: 2.15rem;
+	margin-left: 0.525rem;
+	float: left;
+}
+
+.zh_our {
+	display: block;
+	width: 4.0rem;
+	float: left;
+	margin-left: 3.925rem;
+}
+
+.zh_total {
+	color: #121c1c;
+	font-size: 0.6rem;
+	line-height: 0.65rem;
+	display: block;
+	margin-top: 0.3rem;
+}
+.zh_tota {
+	color: #121c1c;
+	font-size: 0.6rem;
+	line-height: 0.65rem;
+	display: block;
+	margin-top: 0.3rem;
+}
+
+.zh_total span{
+	color: #ef5718;
+	font-size: 0.6rem;
+}
+
+.zh_weight {
+	color: #121c1c;
+	font-size: 0.4rem;
+	line-height: 1.025rem;
+}
+.zh_weigh {
+	color: #121c1c;
+	font-size: 0.4rem;
+	line-height: 1.025rem;
+}
+
+.zh_balance {
+	display: block;
+	float: right;
+	color: #fff;
+	font-size: 0.7rem;
+	text-align: center;
+	width: 4.625rem;
+	height: 2.125rem;
+	background: #fe5600;
+	border: 0.025rem solid #ef4600;
+	line-height: 2.125rem;
+}
+
+.footer {
+	width: 100%;
+	height: 1.95rem;
+}
+
+.footer li {
+	width: 20%;
+	text-align: center;
+	float: left;
+	list-style: none;
+}
+
+.footer li:first-child b {
+	width: 1rem;
+	height: 0.925rem;
+	display: block;
+	margin: 0.2rem 0 0 1.1rem;
+	background: url(../img/s-footer-tu1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li:nth-child(2) b {
+	width: 1.05rem;
+	height: 0.95rem;
+	display: block;
+	margin: 0.2rem 0 0 1.1rem;
+	background: url(../img/s-footer-tu2.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li:nth-child(3) b {
+	width: 1.05rem;
+	height: 0.95rem;
+	display: block;
+	margin: 0.2rem 0 0 1.1rem;
+	background: url(../img/s-footer-tu3.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li:nth-child(4) b {
+	width: 0.8rem;
+	height: 0.9rem;
+	display: block;
+	margin: 0.2rem 0 0 1.1rem;
+	background: url(../img/s-footer-tu4-1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li:last-child b {
+	width: 0.95rem;
+	height: 0.95rem;
+	display: block;
+	margin: 0.2rem 0 0 1.1rem;
+	background: url(../img/Screenshot_2016-08-25-15-16-30_34.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer span {
+	font-size: 0.45rem;
+	color: #0c1114;
+}
+
+.footer li:first-child a:hover b {
+	width: 1rem;
+	height: 0.925rem;
+	display: block;
+	background: url(../img/s-footer-tu1-1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li:nth-child(2) a:hover b {
+	width: 1.05rem;
+	height: 0.95rem;
+	display: block;
+	background: url(../img/s-footer-tu2-1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li:nth-child(3) a:hover b {
+	width: 1.05rem;
+	height: 0.95rem;
+	display: block;
+	background: url(../img/s-footer-tu3-1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li:nth-child(4) a:hover b {
+	width: 0.95rem;
+	height: 0.95rem;
+	display: block;
+	background: url(../img/s-footer-tu4-1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer li a:hover span {
+	color: #fb3700;
+}
+
+.footer li:last-child a span {
+	color: #fb3700;
+}
