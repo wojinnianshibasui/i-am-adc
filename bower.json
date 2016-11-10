@@ -1,0 +1,6 @@
+{
+  "name": "skf",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
